@@ -1,4 +1,4 @@
-# Work in progress Touhou engine recreation in C++
+# Work in progress Touhou engine in C++
 
 
 ## Assets used

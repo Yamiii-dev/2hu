@@ -6,6 +6,7 @@
 #define INC_2HU_GAMEOBJECT_H
 #include <memory>
 #include <SDL3/SDL_render.h>
+#include <string>
 class Scene;
 
 

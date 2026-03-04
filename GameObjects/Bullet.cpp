@@ -3,8 +3,9 @@
 //
 
 #include "Bullet.h"
-
-#include <complex>
+#define _USE_MATH_DEFINES
+#include <cmath>
+#include <math.h>
 
 #include "../math/Vector2.h"
 

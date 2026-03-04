@@ -13,7 +13,7 @@ Sprite::Sprite(const char *filePath, SDL_Renderer *render) : GameObject() {
         std::cout << "Error loading Sprite " << filePath << ": " << SDL_GetError() << std::endl;
     }
     else {
-        SDL_SetTextureScaleMode(tex, SDL_SCALEMODE_PIXELART);
+        SDL_SetTextureScaleMode(tex, SDL_SCALEMODE_NEAREST);
         float w = tex->w;
         float h = tex->h;
         size = {w, h};
